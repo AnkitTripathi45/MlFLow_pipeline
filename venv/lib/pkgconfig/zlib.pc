@@ -1,0 +1,13 @@
+prefix=/Users/ankittripathi/Desktop/Projects/Machine_learning_MlFlow/MlFLow_pipeline/venv
+exec_prefix=/Users/ankittripathi/Desktop/Projects/Machine_learning_MlFlow/MlFLow_pipeline/venv
+libdir=/Users/ankittripathi/Desktop/Projects/Machine_learning_MlFlow/MlFLow_pipeline/venv/lib
+sharedlibdir=/Users/ankittripathi/Desktop/Projects/Machine_learning_MlFlow/MlFLow_pipeline/venv/lib
+includedir=/Users/ankittripathi/Desktop/Projects/Machine_learning_MlFlow/MlFLow_pipeline/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
